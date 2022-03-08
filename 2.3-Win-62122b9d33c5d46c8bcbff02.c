@@ -9,7 +9,7 @@
  */
 
 char* hash_nick (const char* nick) {
-    int hashlen = strlen("tryHarderToMakeAGoodKeyGen");
+    int hashlen = strlen("tryHarderToMakeAGoodKeyGen"); // 26
     int strl = strlen(nick);
     char* newstr = malloc(strl + 1);
     if (newstr == NULL) {
