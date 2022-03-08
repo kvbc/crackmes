@@ -23,7 +23,7 @@ char* hash_nick (const char* nick) {
 }
 
 // Function used to check if the password is "good" for the hashed nickname,
-// in that case it just checks if those two are the same.
+// in that case it just checks if those two are equal to each other.
 // So the final password is just the result of hash_nick()
 int is_pass_good_for_hashed_nick (const char* pass, const char* hashed_nick) {
     int pass_len = strlen(pass);
