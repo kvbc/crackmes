@@ -1,2 +1,2 @@
 # crackmes
-Solutions to https://crackmes.one
+Solutions to [crackmes.one](https://crackmes.one)
